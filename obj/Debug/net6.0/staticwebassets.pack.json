@@ -1,0 +1,3369 @@
+{
+  "Files": [
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/css/slider-range/slider-range.css",
+      "PackagePath": "staticwebassets/css/slider-range/slider-range.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/css/css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets/enteremail_style/css/css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/css/css-style.css",
+      "PackagePath": "staticwebassets/enteremail_style/css/css-style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/fonts/poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets/enteremail_style/fonts/poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/images/background2.jpg",
+      "PackagePath": "staticwebassets/enteremail_style/images/background2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/js/4370-js-main.js",
+      "PackagePath": "staticwebassets/enteremail_style/js/4370-js-main.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enteremail_style/js/jquery-jquery.min.js",
+      "PackagePath": "staticwebassets/enteremail_style/js/jquery-jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/css/css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets/enternewpassword_style/css/css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/css/css-style.css",
+      "PackagePath": "staticwebassets/enternewpassword_style/css/css-style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets/enternewpassword_style/fonts/poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/images/background2.jpg",
+      "PackagePath": "staticwebassets/enternewpassword_style/images/background2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/js/4370-js-main.js",
+      "PackagePath": "staticwebassets/enternewpassword_style/js/4370-js-main.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/enternewpassword_style/js/jquery-jquery.min.js",
+      "PackagePath": "staticwebassets/enternewpassword_style/js/jquery-jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H1/Main/170544029265a6f4244b644.jpg",
+      "PackagePath": "staticwebassets/images/Homestay/H1/Main/170544029265a6f4244b644.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H1/Room/170544029265a6f4244bcf4.jpg",
+      "PackagePath": "staticwebassets/images/Homestay/H1/Room/170544029265a6f4244bcf4.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H1/Room/170544029265a6f4244c04f.jpg",
+      "PackagePath": "staticwebassets/images/Homestay/H1/Room/170544029265a6f4244c04f.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H1/Room/170544029265a6f4244c424.jpg",
+      "PackagePath": "staticwebassets/images/Homestay/H1/Room/170544029265a6f4244c424.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H1/Room/170544029265a6f4244c797.jpg",
+      "PackagePath": "staticwebassets/images/Homestay/H1/Room/170544029265a6f4244c797.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H2/Main/17201120256686d399c6c10.png",
+      "PackagePath": "staticwebassets/images/Homestay/H2/Main/17201120256686d399c6c10.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H2/Room/17201120256686d399c7b07.png",
+      "PackagePath": "staticwebassets/images/Homestay/H2/Room/17201120256686d399c7b07.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H2/Room/17201120256686d399c8576.png",
+      "PackagePath": "staticwebassets/images/Homestay/H2/Room/17201120256686d399c8576.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H2/Room/17201120256686d399c8e4f.png",
+      "PackagePath": "staticwebassets/images/Homestay/H2/Room/17201120256686d399c8e4f.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H2/Room/17201120256686d399c98fb.png",
+      "PackagePath": "staticwebassets/images/Homestay/H2/Room/17201120256686d399c98fb.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H3/Main/170543941665a6f0b8a8674.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H3/Main/170543941665a6f0b8a8674.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H3/Room/170544107965a6f7370e916.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H3/Room/170544107965a6f7370e916.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H3/Room/170544107965a6f7370eb45.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H3/Room/170544107965a6f7370eb45.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H3/Room/170544107965a6f7370efef.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H3/Room/170544107965a6f7370efef.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H3/Room/170544107965a6f7370f3aa.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H3/Room/170544107965a6f7370f3aa.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H4/Main/170543941665a6f0b8a8b6a.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H4/Main/170543941665a6f0b8a8b6a.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H4/Room/170543941665a6f0b8a8fe6.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H4/Room/170543941665a6f0b8a8fe6.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H4/Room/170543941665a6f0b8abc14.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H4/Room/170543941665a6f0b8abc14.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H4/Room/170543941665a6f0b8ac050.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H4/Room/170543941665a6f0b8ac050.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Homestay/H4/Room/170543941665a6f0b8ac496.jpeg",
+      "PackagePath": "staticwebassets/images/Homestay/H4/Room/170543941665a6f0b8ac496.jpeg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/Other/Paypal/wallpaperflare.com_wallpaper.jpg",
+      "PackagePath": "staticwebassets/images/Other/Paypal/wallpaperflare.com_wallpaper.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/SiteImages/OCBK_LOGO.png",
+      "PackagePath": "staticwebassets/images/SiteImages/OCBK_LOGO.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/SiteImages/OCBK_LOGO_TEXT.png",
+      "PackagePath": "staticwebassets/images/SiteImages/OCBK_LOGO_TEXT.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/SiteImages/OCBK_LOGO_TEXT_WHITE.png",
+      "PackagePath": "staticwebassets/images/SiteImages/OCBK_LOGO_TEXT_WHITE.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/SiteImages/OCBK_LOGO_TEXT_WHITE_BORDER.png",
+      "PackagePath": "staticwebassets/images/SiteImages/OCBK_LOGO_TEXT_WHITE_BORDER.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/images/SiteImages/VINHOME_GENERAL.png",
+      "PackagePath": "staticwebassets/images/SiteImages/VINHOME_GENERAL.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/README.md",
+      "PackagePath": "staticwebassets/js/lib/signalr/README.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/browser/signalr.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/browser/signalr.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/browser/signalr.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/browser/signalr.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/browser/signalr.min.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/browser/signalr.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/browser/signalr.min.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/browser/signalr.min.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/AbortController.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/AbortController.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/AbortController.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/AbortController.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/AccessTokenHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/AccessTokenHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/AccessTokenHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/AccessTokenHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/DefaultHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/DefaultHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/DefaultHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/DefaultHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/DefaultReconnectPolicy.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/DefaultReconnectPolicy.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/DefaultReconnectPolicy.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/DefaultReconnectPolicy.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Errors.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Errors.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Errors.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Errors.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/FetchHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/FetchHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/FetchHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/FetchHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HandshakeProtocol.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HandshakeProtocol.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HandshakeProtocol.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HandshakeProtocol.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HeaderNames.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HeaderNames.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HeaderNames.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HeaderNames.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HttpConnection.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HttpConnection.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HttpConnection.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HttpConnection.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HubConnection.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HubConnection.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HubConnection.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HubConnection.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HubConnectionBuilder.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HubConnectionBuilder.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/HubConnectionBuilder.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/HubConnectionBuilder.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IConnection.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IConnection.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IConnection.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IConnection.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IHttpConnectionOptions.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IHttpConnectionOptions.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IHttpConnectionOptions.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IHttpConnectionOptions.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IHubProtocol.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IHubProtocol.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IHubProtocol.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IHubProtocol.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/ILogger.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/ILogger.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/ILogger.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/ILogger.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IRetryPolicy.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IRetryPolicy.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IRetryPolicy.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IRetryPolicy.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IStatefulReconnectOptions.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IStatefulReconnectOptions.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/IStatefulReconnectOptions.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/IStatefulReconnectOptions.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/ITransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/ITransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/ITransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/ITransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/JsonHubProtocol.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/JsonHubProtocol.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/JsonHubProtocol.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/JsonHubProtocol.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Loggers.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Loggers.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Loggers.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Loggers.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/LongPollingTransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/LongPollingTransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/LongPollingTransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/LongPollingTransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/MessageBuffer.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/MessageBuffer.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/MessageBuffer.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/MessageBuffer.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Polyfills.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Polyfills.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Polyfills.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Polyfills.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/ServerSentEventsTransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/ServerSentEventsTransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/ServerSentEventsTransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/ServerSentEventsTransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Stream.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Stream.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Stream.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Stream.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Subject.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Subject.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Subject.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Subject.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/TextMessageFormat.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/TextMessageFormat.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/TextMessageFormat.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/TextMessageFormat.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Utils.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Utils.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/Utils.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/Utils.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/WebSocketTransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/WebSocketTransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/WebSocketTransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/WebSocketTransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/XhrHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/XhrHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/XhrHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/XhrHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/browser-index.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/browser-index.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/browser-index.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/browser-index.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/index.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/index.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/cjs/index.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/cjs/index.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/AbortController.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/AbortController.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/AbortController.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/AbortController.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/AbortController.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/AbortController.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/AccessTokenHttpClient.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/AccessTokenHttpClient.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/AccessTokenHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/AccessTokenHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/AccessTokenHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/AccessTokenHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/DefaultHttpClient.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/DefaultHttpClient.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/DefaultHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/DefaultHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/DefaultHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/DefaultHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/DefaultReconnectPolicy.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/DefaultReconnectPolicy.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/DefaultReconnectPolicy.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/DefaultReconnectPolicy.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/DefaultReconnectPolicy.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/DefaultReconnectPolicy.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Errors.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Errors.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Errors.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Errors.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Errors.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Errors.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/FetchHttpClient.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/FetchHttpClient.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/FetchHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/FetchHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/FetchHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/FetchHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HandshakeProtocol.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HandshakeProtocol.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HandshakeProtocol.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HandshakeProtocol.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HandshakeProtocol.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HandshakeProtocol.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HeaderNames.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HeaderNames.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HeaderNames.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HeaderNames.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HeaderNames.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HeaderNames.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HttpClient.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HttpClient.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HttpConnection.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HttpConnection.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HttpConnection.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HttpConnection.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HttpConnection.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HttpConnection.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HubConnection.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HubConnection.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HubConnection.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HubConnection.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HubConnection.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HubConnection.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HubConnectionBuilder.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HubConnectionBuilder.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HubConnectionBuilder.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HubConnectionBuilder.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/HubConnectionBuilder.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/HubConnectionBuilder.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IConnection.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IConnection.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IConnection.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IConnection.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IConnection.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IConnection.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IHttpConnectionOptions.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IHttpConnectionOptions.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IHttpConnectionOptions.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IHttpConnectionOptions.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IHttpConnectionOptions.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IHttpConnectionOptions.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IHubProtocol.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IHubProtocol.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IHubProtocol.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IHubProtocol.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IHubProtocol.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IHubProtocol.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ILogger.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ILogger.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ILogger.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ILogger.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ILogger.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ILogger.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IRetryPolicy.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IRetryPolicy.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IRetryPolicy.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IRetryPolicy.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IRetryPolicy.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IRetryPolicy.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IStatefulReconnectOptions.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IStatefulReconnectOptions.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IStatefulReconnectOptions.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IStatefulReconnectOptions.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/IStatefulReconnectOptions.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/IStatefulReconnectOptions.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ITransport.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ITransport.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ITransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ITransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ITransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ITransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/JsonHubProtocol.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/JsonHubProtocol.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/JsonHubProtocol.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/JsonHubProtocol.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/JsonHubProtocol.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/JsonHubProtocol.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Loggers.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Loggers.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Loggers.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Loggers.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Loggers.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Loggers.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/LongPollingTransport.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/LongPollingTransport.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/LongPollingTransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/LongPollingTransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/LongPollingTransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/LongPollingTransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/MessageBuffer.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/MessageBuffer.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/MessageBuffer.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/MessageBuffer.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/MessageBuffer.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/MessageBuffer.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Polyfills.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Polyfills.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Polyfills.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Polyfills.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Polyfills.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Polyfills.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ServerSentEventsTransport.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ServerSentEventsTransport.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ServerSentEventsTransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ServerSentEventsTransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/ServerSentEventsTransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/ServerSentEventsTransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Stream.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Stream.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Stream.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Stream.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Stream.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Stream.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Subject.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Subject.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Subject.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Subject.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Subject.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Subject.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/TextMessageFormat.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/TextMessageFormat.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/TextMessageFormat.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/TextMessageFormat.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/TextMessageFormat.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/TextMessageFormat.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Utils.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Utils.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Utils.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Utils.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/Utils.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/Utils.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/WebSocketTransport.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/WebSocketTransport.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/WebSocketTransport.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/WebSocketTransport.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/WebSocketTransport.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/WebSocketTransport.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/XhrHttpClient.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/XhrHttpClient.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/XhrHttpClient.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/XhrHttpClient.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/XhrHttpClient.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/XhrHttpClient.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/browser-index.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/browser-index.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/browser-index.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/browser-index.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/browser-index.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/browser-index.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/index.d.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/index.d.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/index.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/index.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/esm/index.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/esm/index.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/webworker/signalr.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/webworker/signalr.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/webworker/signalr.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/webworker/signalr.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/webworker/signalr.min.js",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/webworker/signalr.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/dist/webworker/signalr.min.js.map",
+      "PackagePath": "staticwebassets/js/lib/signalr/dist/webworker/signalr.min.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/package.json",
+      "PackagePath": "staticwebassets/js/lib/signalr/package.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/AbortController.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/AbortController.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/AccessTokenHttpClient.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/AccessTokenHttpClient.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/DefaultHttpClient.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/DefaultHttpClient.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/DefaultReconnectPolicy.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/DefaultReconnectPolicy.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/Errors.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/Errors.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/FetchHttpClient.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/FetchHttpClient.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/HandshakeProtocol.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/HandshakeProtocol.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/HeaderNames.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/HeaderNames.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/HttpClient.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/HttpClient.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/HttpConnection.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/HttpConnection.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/HubConnection.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/HubConnection.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/HubConnectionBuilder.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/HubConnectionBuilder.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/IConnection.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/IConnection.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/IHttpConnectionOptions.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/IHttpConnectionOptions.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/IHubProtocol.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/IHubProtocol.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/ILogger.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/ILogger.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/IRetryPolicy.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/IRetryPolicy.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/IStatefulReconnectOptions.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/IStatefulReconnectOptions.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/ITransport.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/ITransport.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/JsonHubProtocol.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/JsonHubProtocol.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/Loggers.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/Loggers.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/LongPollingTransport.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/LongPollingTransport.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/MessageBuffer.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/MessageBuffer.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/Polyfills.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/Polyfills.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/ServerSentEventsTransport.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/ServerSentEventsTransport.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/Stream.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/Stream.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/Subject.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/Subject.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/TextMessageFormat.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/TextMessageFormat.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/Utils.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/Utils.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/WebSocketTransport.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/WebSocketTransport.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/XhrHttpClient.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/XhrHttpClient.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/browser-index.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/browser-index.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/index.ts",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/index.ts"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/lib/signalr/src/third-party-notices.txt",
+      "PackagePath": "staticwebassets/js/lib/signalr/src/third-party-notices.txt"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/signalR/transaction-confirmation.js",
+      "PackagePath": "staticwebassets/js/signalR/transaction-confirmation.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/js/slider-range/slider-range.js",
+      "PackagePath": "staticwebassets/js/slider-range/slider-range.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/.gitattributes",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/.gitattributes"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/.gitignore",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/.gitignore"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/.travis.yml",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/.travis.yml"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/CONTRIBUTING.md",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/CONTRIBUTING.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/Gruntfile.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/Gruntfile.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/ISSUE_TEMPLATE.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/LICENSE",
+      "PackagePath": "staticwebassets/lib/OwlCarousel"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/README.md",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/README.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/ROADMAP.md",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/ROADMAP.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/_config.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/_config.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/bower.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/bower.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/LICENSE",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/README.md",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/README.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/owl.carousel.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/owl.carousel.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/dist/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/dist/owl.carousel.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/css/animate.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/css/animate.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/css/docs.theme.min.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/css/docs.theme.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/bird_blue_32.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/bird_blue_32.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/download.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/download.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/feature-drag.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/feature-drag.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/feature-modern.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/feature-modern.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/feature-module.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/feature-module.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/feature-options.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/feature-options.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/feature-responsive.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/feature-responsive.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/feature-zombie.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/feature-zombie.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/owl-logo.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/owl-logo.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/img/twitter_25.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/img/twitter_25.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/js/app.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/js/app.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/js/foundation.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/js/foundation.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/README.md",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/README.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/vendors/foundation.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/vendors/foundation.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/vendors/highlight.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/vendors/highlight.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/vendors/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/vendors/jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/vendors/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/vendors/jquery.min.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/assets/vendors/jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/assets/vendors/jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/animate.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/animate.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/autoheight.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/autoheight.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/autoplay.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/autoplay.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/autowidth.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/autowidth.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/basic.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/basic.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/center.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/center.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/demos.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/demos.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/events.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/events.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/lazyLoad.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/lazyLoad.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/merge.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/merge.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/mousewheel.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/mousewheel.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/responsive.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/responsive.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/rtl.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/rtl.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/stagepadding.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/stagepadding.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/test.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/test.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/urlhashnav.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/urlhashnav.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/demos/video.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/demos/video.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/api-classes.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/api-classes.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/api-events.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/api-events.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/api-options.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/api-options.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/dev-buildin-plugins.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/dev-buildin-plugins.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/dev-external.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/dev-external.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/dev-plugin-api.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/dev-plugin-api.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/dev-styles.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/dev-styles.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/started-faq.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/started-faq.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/started-installation.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/started-installation.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/started-welcome.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/started-welcome.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/support-changelog.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/support-changelog.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/support-contact.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/support-contact.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/docs/support-contributing.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/docs/support-contributing.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs/index.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs/index.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/css/animate.css",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/css/animate.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/bird_blue_32.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/bird_blue_32.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/download.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/download.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/feature-drag.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/feature-drag.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/feature-modern.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/feature-modern.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/feature-module.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/feature-module.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/feature-options.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/feature-options.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/feature-responsive.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/feature-responsive.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/feature-zombie.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/feature-zombie.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/owl-logo.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/owl-logo.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/img/twitter_25.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/img/twitter_25.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/js/app.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/js/app.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/js/foundation.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/js/foundation.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/scss/_settings.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/scss/_settings.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/scss/custom.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/scss/custom.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/scss/demos.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/scss/demos.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/scss/docs.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/scss/docs.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/scss/docs.theme.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/scss/docs.theme.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/scss/highlight.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/scss/highlight.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/vendors/foundation.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/vendors/foundation.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/vendors/highlight.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/vendors/highlight.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/vendors/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/vendors/jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/vendors/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/vendors/jquery.min.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/assets/vendors/jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/assets/vendors/jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/data/classes.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/data/classes.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/data/events.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/data/events.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/data/features.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/data/features.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/data/options.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/data/options.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/helpers/modulo.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/helpers/modulo.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/helpers/test.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/helpers/test.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/layouts/demos.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/layouts/demos.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/layouts/docs.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/layouts/docs.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/layouts/home.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/layouts/home.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/animate.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/animate.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/autoheight.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/autoheight.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/autoplay.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/autoplay.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/autowidth.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/autowidth.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/basic.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/basic.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/center.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/center.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/demos.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/demos.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/events.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/events.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/lazyLoad.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/lazyLoad.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/merge.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/merge.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/mousewheel.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/mousewheel.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/responsive.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/responsive.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/rtl.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/rtl.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/stagepadding.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/stagepadding.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/test.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/test.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/urlhashnav.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/urlhashnav.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/demos/video.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/demos/video.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/api-classes.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/api-classes.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/api-events.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/api-events.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/api-options.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/api-options.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/dev-buildin-plugins.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/dev-external.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/dev-external.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/dev-plugin-api.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/dev-plugin-api.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/dev-styles.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/dev-styles.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/started-faq.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/started-faq.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/started-installation.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/started-installation.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/started-welcome.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/started-welcome.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/support-changelog.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/support-changelog.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/support-contact.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/support-contact.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/docs/support-contributing.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/docs/support-contributing.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/pages/index.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/pages/index.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/footer.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/footer.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/head.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/head.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/header.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/header.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/home-carousel.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/home-carousel.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/home-features.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/home-features.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/home-hero.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/home-hero.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/home-teaser-text.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/home-teaser-text.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/javascripts.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/javascripts.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/releated-docs.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/releated-docs.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/sidenav-docs.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/sidenav-docs.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/title.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/title.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/docs_src/templates/partials/vendors.hbs",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/docs_src/templates/partials/vendors.hbs"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/package-lock.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/package-lock.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/package.json",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/package.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/img/ajax-loader.gif",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/img/ajax-loader.gif"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/img/owl.video.play.png",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/img/owl.video.play.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/.jscsrc",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/.jscsrc"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/.jshintrc",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/.jshintrc"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.animate.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.animate.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.autoheight.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.autoheight.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.autoplay.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.autoplay.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.autorefresh.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.autorefresh.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.carousel.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.carousel.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.hash.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.hash.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.lazyload.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.lazyload.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.navigation.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.navigation.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.support.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.support.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.support.modernizr.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.support.modernizr.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/js/owl.video.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/js/owl.video.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_animate.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_animate.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_autoheight.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_autoheight.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_core.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_core.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_lazyload.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_lazyload.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_theme.default.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_theme.default.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_theme.green.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_theme.green.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_theme.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_theme.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/_video.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/_video.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/owl.carousel.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/owl.carousel.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/owl.theme.default.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/owl.theme.default.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/src/scss/owl.theme.green.scss",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/src/scss/owl.theme.green.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/test/index.html",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/test/index.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/test/unit/autoplay.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/test/unit/autoplay.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/OwlCarousel/test/unit/core.js",
+      "PackagePath": "staticwebassets/lib/OwlCarousel/test/unit/core.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/css/css-bootstrap.min.css",
+      "PackagePath": "staticwebassets/login_style/css/css-bootstrap.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/css/css-elegant-fonts.css",
+      "PackagePath": "staticwebassets/login_style/css/css-elegant-fonts.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/css/css-font-awesome.min.css",
+      "PackagePath": "staticwebassets/login_style/css/css-font-awesome.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/css/css-style.css",
+      "PackagePath": "staticwebassets/login_style/css/css-style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/css/css-swiper.min.css",
+      "PackagePath": "staticwebassets/login_style/css/css-swiper.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/css/css-themify-icons.css",
+      "PackagePath": "staticwebassets/login_style/css/css-themify-icons.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/css/thecharity-style.css",
+      "PackagePath": "staticwebassets/login_style/css/thecharity-style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-ElegantIcons.eot",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-ElegantIcons.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-ElegantIcons.ttf",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-ElegantIcons.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-ElegantIcons.woff",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-ElegantIcons.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-themify.eot",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-themify.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-themify.svg",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-themify.svg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-themify.ttf",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-themify.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/fonts/fonts-themify.woff",
+      "PackagePath": "staticwebassets/login_style/fonts/fonts-themify.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/images/background2.jpg",
+      "PackagePath": "staticwebassets/login_style/images/background2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/211-js-main.js",
+      "PackagePath": "staticwebassets/login_style/js/211-js-main.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/2459-js-bootstrap.min.js",
+      "PackagePath": "staticwebassets/login_style/js/2459-js-bootstrap.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/3208-js-swiper.min.js",
+      "PackagePath": "staticwebassets/login_style/js/3208-js-swiper.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/4082-js-popper.js",
+      "PackagePath": "staticwebassets/login_style/js/4082-js-popper.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/4941-js-jquery.countdown.min.js",
+      "PackagePath": "staticwebassets/login_style/js/4941-js-jquery.countdown.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/6055-js-jquery.js",
+      "PackagePath": "staticwebassets/login_style/js/6055-js-jquery.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/6087-js-circle-progress.min.js",
+      "PackagePath": "staticwebassets/login_style/js/6087-js-circle-progress.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/6419-js-custom.js",
+      "PackagePath": "staticwebassets/login_style/js/6419-js-custom.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/7367-js-jquery.barfiller.js",
+      "PackagePath": "staticwebassets/login_style/js/7367-js-jquery.barfiller.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/8479-js-jquery.min.js",
+      "PackagePath": "staticwebassets/login_style/js/8479-js-jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/9015-js-jquery.collapsible.min.js",
+      "PackagePath": "staticwebassets/login_style/js/9015-js-jquery.collapsible.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/9736-js-jquery.countTo.min.js",
+      "PackagePath": "staticwebassets/login_style/js/9736-js-jquery.countTo.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/login_style/js/cloudflare-static-email-decode.min.js",
+      "PackagePath": "staticwebassets/login_style/js/cloudflare-static-email-decode.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/aos.css",
+      "PackagePath": "staticwebassets/main_style/css/aos.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/bootstrap-datepicker.css",
+      "PackagePath": "staticwebassets/main_style/css/bootstrap-datepicker.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/main_style/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/main_style/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/bootstrap/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/main_style/css/bootstrap/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/bootstrap/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/main_style/css/bootstrap/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/bootstrap/bootstrap.css",
+      "PackagePath": "staticwebassets/main_style/css/bootstrap/bootstrap.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/jquery-ui.css",
+      "PackagePath": "staticwebassets/main_style/css/jquery-ui.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets/main_style/css/jquery.fancybox.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/magnific-popup.css",
+      "PackagePath": "staticwebassets/main_style/css/magnific-popup.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/mediaelementplayer.css",
+      "PackagePath": "staticwebassets/main_style/css/mediaelementplayer.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/main_style/css/owl.carousel.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/main_style/css/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/css/style.css",
+      "PackagePath": "staticwebassets/main_style/css/style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/backup.txt",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/backup.txt"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/Flaticon.eot",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/Flaticon.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/Flaticon.svg",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/Flaticon.svg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/Flaticon.ttf",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/Flaticon.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/Flaticon.woff",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/Flaticon.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/Flaticon.woff2",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/Flaticon.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/_flaticon.scss",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/_flaticon.scss"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/flaticon.css",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/flaticon.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/font/flaticon.html",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/font/flaticon.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/flaticon/license/license.pdf",
+      "PackagePath": "staticwebassets/main_style/fonts/flaticon/license/license.pdf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/Read Me.txt",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/Read Me.txt"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/demo-files/demo.css",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/demo-files/demo.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/demo-files/demo.js",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/demo-files/demo.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/demo.html",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/demo.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/fonts/icomoon.eot",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/fonts/icomoon.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/fonts/icomoon.svg",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/fonts/icomoon.svg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/fonts/icomoon.ttf",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/fonts/icomoon.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/fonts/icomoon.woff",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/fonts/icomoon.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/selection.json",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/selection.json"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/fonts/icomoon/style.css",
+      "PackagePath": "staticwebassets/main_style/fonts/icomoon/style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/hero_1.jpg",
+      "PackagePath": "staticwebassets/main_style/images/hero_1.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/hero_2.jpg",
+      "PackagePath": "staticwebassets/main_style/images/hero_2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/hero_3.jpg",
+      "PackagePath": "staticwebassets/main_style/images/hero_3.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/img_1.jpg",
+      "PackagePath": "staticwebassets/main_style/images/img_1.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/img_2.jpg",
+      "PackagePath": "staticwebassets/main_style/images/img_2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/img_3.jpg",
+      "PackagePath": "staticwebassets/main_style/images/img_3.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/img_4.jpg",
+      "PackagePath": "staticwebassets/main_style/images/img_4.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/img_5.jpg",
+      "PackagePath": "staticwebassets/main_style/images/img_5.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/img_6.jpg",
+      "PackagePath": "staticwebassets/main_style/images/img_6.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/person_1.jpg",
+      "PackagePath": "staticwebassets/main_style/images/person_1.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/person_2.jpg",
+      "PackagePath": "staticwebassets/main_style/images/person_2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/person_3.jpg",
+      "PackagePath": "staticwebassets/main_style/images/person_3.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/person_4.jpg",
+      "PackagePath": "staticwebassets/main_style/images/person_4.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/person_5.jpg",
+      "PackagePath": "staticwebassets/main_style/images/person_5.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/post_1.jpg",
+      "PackagePath": "staticwebassets/main_style/images/post_1.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/post_2.jpg",
+      "PackagePath": "staticwebassets/main_style/images/post_2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/post_3.jpg",
+      "PackagePath": "staticwebassets/main_style/images/post_3.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/post_4.jpg",
+      "PackagePath": "staticwebassets/main_style/images/post_4.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/post_5.jpg",
+      "PackagePath": "staticwebassets/main_style/images/post_5.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/images/post_6.jpg",
+      "PackagePath": "staticwebassets/main_style/images/post_6.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/aos.js",
+      "PackagePath": "staticwebassets/main_style/js/aos.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets/main_style/js/bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/main_style/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery-migrate-3.0.1.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery-migrate-3.0.1.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery-ui.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery-ui.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.animateNumber.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.animateNumber.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.countdown.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.countdown.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.easing.1.3.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.easing.1.3.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.fancybox.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.stellar.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.stellar.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.sticky.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.sticky.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/jquery.waypoints.min.js",
+      "PackagePath": "staticwebassets/main_style/js/jquery.waypoints.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/main.js",
+      "PackagePath": "staticwebassets/main_style/js/main.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/mediaelement-and-player.min.js",
+      "PackagePath": "staticwebassets/main_style/js/mediaelement-and-player.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/main_style/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/popper.min.js",
+      "PackagePath": "staticwebassets/main_style/js/popper.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/slick.min.js",
+      "PackagePath": "staticwebassets/main_style/js/slick.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/main_style/js/typed.js",
+      "PackagePath": "staticwebassets/main_style/js/typed.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/otp_style/background2.jpg",
+      "PackagePath": "staticwebassets/otp_style/background2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/otp_style/script.js",
+      "PackagePath": "staticwebassets/otp_style/script.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/otp_style/style.css",
+      "PackagePath": "staticwebassets/otp_style/style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/favicons/img-bootdey_135x140.png",
+      "PackagePath": "staticwebassets/profile_style/favicons/img-bootdey_135x140.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/favicons/img-bootdey_76x76.png",
+      "PackagePath": "staticwebassets/profile_style/favicons/img-bootdey_76x76.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/favicons/img-bootdey_favicon.ico",
+      "PackagePath": "staticwebassets/profile_style/favicons/img-bootdey_favicon.ico"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/images/avatar-avatar1.png",
+      "PackagePath": "staticwebassets/profile_style/images/avatar-avatar1.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/images/background2.jpg",
+      "PackagePath": "staticwebassets/profile_style/images/background2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/js/cache-js-cache-1635427806-97135bbb13d92c11d6b2a92f6a36685a.js",
+      "PackagePath": "staticwebassets/profile_style/js/cache-js-cache-1635427806-97135bbb13d92c11d6b2a92f6a36685a.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/js/carbon.js",
+      "PackagePath": "staticwebassets/profile_style/js/carbon.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/profile_style/js/js-bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/profile_style/js/js-bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/css/css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets/security_style/css/css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/css/css-style.css",
+      "PackagePath": "staticwebassets/security_style/css/css-style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/fonts/poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets/security_style/fonts/poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/images/background2.jpg",
+      "PackagePath": "staticwebassets/security_style/images/background2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/images/images-body-bg.jpg",
+      "PackagePath": "staticwebassets/security_style/images/images-body-bg.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/images/images-container-bg.png",
+      "PackagePath": "staticwebassets/security_style/images/images-container-bg.png"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/js/4370-js-main.js",
+      "PackagePath": "staticwebassets/security_style/js/4370-js-main.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/security_style/js/jquery-jquery.min.js",
+      "PackagePath": "staticwebassets/security_style/js/jquery-jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/css/css-material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets/signup_style/css/css-material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/css/css-style.css",
+      "PackagePath": "staticwebassets/signup_style/css/css-style.css"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/fonts-Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/fonts-Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/fonts-Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/fonts-Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/fonts-Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/fonts-Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/fonts/poppins-poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets/signup_style/fonts/poppins-poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/images/background2.jpg",
+      "PackagePath": "staticwebassets/signup_style/images/background2.jpg"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/js/4370-js-main.js",
+      "PackagePath": "staticwebassets/signup_style/js/4370-js-main.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/signup_style/js/jquery-jquery.min.js",
+      "PackagePath": "staticwebassets/signup_style/js/jquery-jquery.min.js"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/templates/BOOKING_CANCELLED_TEMPLATE.html",
+      "PackagePath": "staticwebassets/templates/BOOKING_CANCELLED_TEMPLATE.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/templates/BOOKING_CONFIRMED_TEMPLATE.html",
+      "PackagePath": "staticwebassets/templates/BOOKING_CONFIRMED_TEMPLATE.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/templates/BOOKING_NOTIFICATION_TEMPLATE.html",
+      "PackagePath": "staticwebassets/templates/BOOKING_NOTIFICATION_TEMPLATE.html"
+    },
+    {
+      "Id": "/home/henrygphp/Documents/Projects/OCBK/EXE202/wwwroot/templates/OTP_MAIL_TEMPLATE.html",
+      "PackagePath": "staticwebassets/templates/OTP_MAIL_TEMPLATE.html"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.EXE202.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.EXE202.props",
+      "PackagePath": "build\\EXE202.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.EXE202.props",
+      "PackagePath": "buildMultiTargeting\\EXE202.props"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.EXE202.props",
+      "PackagePath": "buildTransitive\\EXE202.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,377 @@
+﻿@using EXE202.Models
+@using EXE202.Utils
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Yêu cầu thuê phòng - OceanBooking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="/images/SiteImages/OCBK_LOGO.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <style type="text/css">
+
+        body {
+            margin-top: 20px;
+            background-image: url('/login_style/images/background2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        hr {
+            background-color: #69707a !important
+        }
+
+        .img-account-profile {
+            height: 10rem;
+        }
+
+        .rounded-circle {
+            border-radius: 50% !important;
+        }
+
+        .table > :not(:last-child) > :last-child > * {
+            border-bottom-color: currentColor;
+            color: wheat;
+        }
+
+        .card {
+            box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: rgb(0 0 0 / 45%);
+            background-clip: border-box;
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: 0.25rem;
+            color: white
+        }
+
+        hr {
+            margin: 1rem 0;
+            color: inherit;
+            background-color: white;
+            border: 0;
+            opacity: .25;
+            padding-bottom: 1px;
+        }
+
+        .card .card-header {
+            font-weight: 500;
+        }
+
+        .card-header:first-child {
+            border-radius: 0.35rem 0.35rem 0 0;
+        }
+
+        .card-header {
+            padding: 1rem 1.35rem;
+            margin-bottom: 0;
+            background-color: rgba(33, 40, 50, 0.03);
+            border-bottom: 1px solid rgba(33, 40, 50, 0.125);
+            display: flex;
+            justify-content: space-between;
+            align-items: center
+        }
+
+        .text-secondary {
+            color: #dee2e6 !important;
+            font-family: monospace;
+        }
+
+        .form-control,
+        .dataTable-input {
+            display: block;
+            width: 100%;
+            padding: none;
+            font-size: 0.875rem;
+            font-weight: 400;
+            line-height: 1;
+            color: white;
+            background-color: #000000a1;
+            background-clip: padding-box;
+            border: 2px solid #f700188a;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0.35rem;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .nav {
+            display: flex;
+            flex-wrap: wrap;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+
+        .nav-borders .nav-link {
+            color: black;
+            border-bottom-width: 0.125rem;
+            border-bottom-style: solid;
+            border-bottom-color: transparent;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            padding-left: 10px;
+            padding-right: 0;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+
+        .fa-2x {
+            font-size: 2em;
+        }
+
+        .table-billing-history th,
+        .table-billing-history td {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            padding-left: 1.375rem;
+            padding-right: 1.375rem;
+        }
+
+        .table > :not(caption) > * > *,
+        .dataTable-table > :not(caption) > * > * {
+            background-color: var(--bs-table-bg);
+            border-bottom-width: 1px;
+            box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+            color: white;
+            padding-left: 85px
+        }
+
+        .border-start-primary {
+            border-left-color: #0061f2 !important;
+        }
+
+        .border-start-secondary {
+            border-left-color: #6900c7 !important;
+        }
+
+        .border-start-success {
+            border-left-color: #00ac69 !important;
+        }
+
+        .border-start-lg {
+            border-left-width: 0.25rem !important;
+        }
+
+        .h-100 {
+            height: 100% !important;
+        }
+
+        .text-muted {
+            color: white !important
+        }
+
+        tbody, td, tfoot, th, thead, tr {
+            border-color: inherit;
+            border-width: 0;
+            border-style: none;
+        }
+
+        th {
+            text-align: inherit;
+            text-align: -webkit-match-parent;
+            border-style: solid;
+        }
+
+        .mb-0 {
+            margin-bottom: 10px !important
+        }
+
+        .input-group {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            width: 23%;
+        }
+
+        .input-group-text {
+            display: flex;
+            align-items: center;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #dc3545;
+            text-align: center;
+            white-space: nowrap;
+            background-color: #e9ecef00;
+            border: 1px solid white;
+            border-radius: .25rem;
+        }
+
+        .nav-borders .nav-link.active {
+            color: #0061f2;
+            border-bottom-color: #0061f2;
+        }
+    </style>
+    <link href="~/css/site.css" rel="stylesheet" />
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+          integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <div class="container-xl px-4 mt-4">
+        <nav class="nav nav-borders">
+            <a class="nav-link" href="@Url.Action("LoadHomestay", "Homestay")">TRANG CHỦ</a>
+            <a class="nav-link" href="@Url.Action("Profile", "Profile")">THÔNG TIN CÁ NHÂN</a>
+            @if (@ViewBag.customer.Role == 0)
+            {
+                <a class="nav-link" href="@Url.Action("Rental", "Profile")">LỊCH SỬ ĐẶT PHÒNG</a>
+                <a class="nav-link" href="@Url.Action("CheckpointPurchase", "Profile")">TÀI CHÍNH</a>
+            }
+            else if (@ViewBag.customer.Role == 1)
+            {
+                <a class="nav-link active ms-0" href="@Url.Action("RentalRequest", "Profile")">YÊU CẦU ĐẶT PHÒNG</a>
+            }
+            <a class="nav-link" href="@Url.Action("Security", "Profile")">ĐỔI MẬT KHẨU</a>
+            <a style="padding-left: 200px; padding-bottom: 5px" href='https://www.paypal.com/vn/webapps/mpp/paypal-popup' title='How PayPal Works' onclick="javascript:window.open('https://www.paypal.com/vn/webapps/mpp/paypal-popup',
+                                                                 'WIPaypal', 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700');
+                                                         return false;"><img src='https://www.paypalobjects.com/marketing/web/vn/manage-my-paypal-account/PP-AcceptanceMarkTray-NoDiscover-243x40-optimised.png' alt='Khay ?ánh d?u ch?p nh?n PayPal | L?n' /></a>
+        </nav>
+        <hr class="mt-0 mb-4">
+
+        @{
+            var rentals = ViewBag.listRentalContract as List<BookingContract>;
+            int resultCount = rentals?.Count ?? 0;
+        }
+        <div style="padding-top: 50px">
+            <div class="card mb-4">
+                <div class="card-body p-0">
+                    <div class="table-responsive table-billing-history">
+                        <table class="table mb-0">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th class="border-gray-200" scope="col">Tên phòng</th>
+                                    <th class="border-gray-200" scope="col">Ngày nhận</th>
+                                    <th class="border-gray-200" scope="col">Ngày trả</th>
+                                    <th class="border-gray-200" scope="col"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (rentals != null && rentals.Count > 0)
+                                {
+                                    @foreach (var rental in ViewBag.listRentalContract)
+                                    {
+                                        <tr>
+                                            <td class="text-bolder" width="20px">@rental.BookingId</td>
+                                            <td class="text-bolder">
+                                                @foreach (var h in ViewBag.listHomes)
+                                                {
+                                                    if (h.HomestayId == rental.RoomId)
+                                                    {
+                                                        @h.Name
+                                                    }
+                                                }
+                                            </td>
+                                            <td>
+                                                @DateTimeHelper.GetFormatedDate(rental.StartDate)
+                                            </td>
+                                            <td>
+                                                @DateTimeHelper.GetFormatedDate(rental.EndDate)
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-primary" target="_blank" href="@Url.Action("ViewRentalDetail", "Profile", new { rental_id = rental.BookingId })">
+                                                    XEM
+                                                </a>
+                                                <a class="btn btn-outline-warning" href="javascript:void(0);" onclick="confirmRental('@rental.BookingId')">
+                                                    XÁC NHẬN
+                                                </a>
+                                                <a class="btn btn-outline-danger" href="javascript:void(0);" onclick="cancelRental('@rental.BookingId')">
+                                                    HUỶ ĐƠN
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <style>
+            ul.reviews-pagination li.active {
+                background-color: #dc3545c2;
+                color: #fff;
+            }
+
+            ul.reviews-pagination li {
+                list-style-type: none;
+                display: inline-block;
+                margin-right: 10px;
+                border: 2px solid #f700188a;
+                border-radius: 5px;
+                padding: 3px 9px;
+            }
+
+            a {
+                color: #ffffff00;
+            }
+
+            ul.reviews-pagination li a {
+                text-decoration: none;
+                color: white
+            }
+        </style>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <script>
+        function confirmRental(bookingId) {
+            swal({
+                title: "Bạn có chắc xác nhận đơn?",
+                text: "Bạn sẽ không thể hoàn tác hành động này!",
+                type: "warning", // Lưu ý với SweetAlert 1.x dùng "type" thay cho "icon"
+                showCancelButton: true,
+                confirmButtonText: "Xác nhận",
+                cancelButtonText: "Hủy",
+                closeOnConfirm: false // Đóng modal sau khi xác nhận
+            }, function (isConfirm) {
+                if (isConfirm) {
+                    // Chuyển hướng đến URL sau khi người dùng xác nhận
+                    var url = '@Url.Action("ConfirmRental", "Profile", new { rental_id = "__bookingId__" })';
+                    url = url.replace("__bookingId__", bookingId);
+                    window.location.href = url;
+                }
+            });
+        }
+
+        function cancelRental(bookingId) {
+            swal({
+                title: "Bạn có chắc huỷ đơn?",
+                text: "Bạn sẽ không thể hoàn tác hành động này!",
+                type: "warning", // Lưu ý với SweetAlert 1.x dùng "type" thay cho "icon"
+                showCancelButton: true,
+                confirmButtonText: "Xác nhận",
+                cancelButtonText: "Hủy",
+                closeOnConfirm: false // Đóng modal sau khi xác nhận
+            }, function (isConfirm) {
+                if (isConfirm) {
+                    // Chuyển hướng đến URL sau khi người dùng xác nhận
+                    var url = '@Url.Action("RentalCanceled", "Profile", new { rental_id = "__bookingId__" })';
+                    url = url.replace("__bookingId__", bookingId);
+                    window.location.href = url;
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,595 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using EXE202.Models;
+@using EXE202.Utils
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OceanBooking - Chi tiết Homestay</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="image/png" href="/images/SiteImages/OCBK_LOGO.png"/>
+    <link href="https://fonts.googleapis.com/css?family=DM+Sans:300,400,700&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/fonts/icomoon/style.css")">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/css/bootstrap.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/css/bootstrap-datepicker.css")">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/css/jquery.fancybox.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/css/owl.carousel.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/css/owl.theme.default.min.css")">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/fonts/flaticon/font/flaticon.css")">
+    <link rel="stylesheet" href="@Url.Content("~/main_style/css/aos.css")">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+    <link href="@Url.Content("~/css/site.css")" rel="stylesheet"/>
+
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="~/main_style/css/style.css">
+</head>
+<body style="max-height: 100vh">
+<header class="site-navbar site-navbar-target" role="banner" style="background-color: rgba(79, 173, 201, 0.5);">
+    <div class="container">
+        <div class="row align-items-center position-relative">
+            <div class="col-md-6 col-sm-12">
+                <div class="site-logo">
+                    <a href="@Url.Action("LoadHomestay", "Homestay")">
+                        <img style="width: 350px; font-weight: bold" src="/images/SiteImages/OCBK_LOGO_TEXT_WHITE.png"/>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <nav class="site-navigation ml-auto d-lg-block">
+                    <ul class="site-menu main-menu js-clone-nav ml-auto">
+                        @if (ViewBag.name == null)
+                        {
+                            <li>
+                                <a href="@Url.Action("Login", "Login")" class="nav-link">ĐĂNG NHẬP</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("SignUp", "SignUp")" class="nav-link">ĐĂNG KÝ</a>
+                            </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="@Url.Action("Profile", "Profile")" class="nav-link">Xin chào @ViewBag.name</a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Logout", "Login")" class="nav-link">ĐĂNG XUẤT</a>
+                            </li>
+                        }
+                        <li>
+                            <a href="@Url.Action("AboutUs", "PageInformation")" class="nav-link">VỀ CHÚNG TÔI</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- END nav -->
+
+<div style="margin-top: 250px"></div>
+
+<section class="ftco-section ftco-car-details">
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-12">
+        <div class="car-details">
+            <div class="text text-center">
+                <h2>@ViewBag.homestay_detail.Name</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+</div>
+<div class="row">
+<div class="col-md-12 pills">
+<div class="bd-example bd-example-tabs">
+<div class="d-flex justify-content-center">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item m-2">
+            <a class="btn btn-outline-primary nav-link active" id="pills-manufacturer-tab" data-toggle="pill" href="#pills-manufacturer" role="tab" aria-controls="pills-manufacturer" aria-expanded="true">THÔNG TIN</a>
+        </li>
+        <li class="nav-item m-2">
+            <a class="btn btn-outline-primary nav-link" id="pills-rental-tab" data-toggle="pill" href="#pills-rental" role="tab" aria-controls="pills-rental" aria-expanded="true">ĐẶT PHÒNG</a>
+        </li>
+    </ul>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script>
+                            document.addEventListener('DOMContentLoaded', function () {
+                                var urlParams = new URLSearchParams(window.location.search);
+                                var tabId = urlParams.get('tab');
+
+                                if (tabId) {
+                                    var tab = document.querySelector('#' + tabId + '-tab');
+                                    var tabContent = document.querySelector('#' + tabId);
+
+                                    if (tab && tabContent) {
+                                        // Activate the selected tab and tab pane
+                                        $(tab).tab('show');
+
+                                        // Scroll down more
+                                        setTimeout(function () {
+                                            window.scrollTo({
+                                                top: 1600, // Change this value to scroll down more or less
+                                                behavior: 'smooth'
+                                            });
+                                        }, 300); // Adjust the timeout to ensure it runs after the tab is shown
+                                    }
+                                }
+                            });
+                        </script>
+<div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-manufacturer" role="tabpanel" aria-labelledby="pills-manufacturer-tab">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <section id="slider">
+                    <div class="container">
+                        <div class="slider">
+                            <div class="owl-carousel">
+                                @{
+                                    if (@ViewBag.homestayImages != null)
+                                    {
+                                        foreach (var image in ViewBag.homestayImages)
+                                        {
+                                            @if (image.Image1 != null)
+                                            {
+                                                <div class="slider-card">
+                                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                                        <a data-fancybox="gallery" href="@image.Image1">
+                                                            <img src="@image.Image1" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            }
+
+                                            @if (image.Image2 != null)
+                                            {
+                                                <div class="slider-card">
+                                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                                        <a data-fancybox="gallery" href="@image.Image2">
+                                                            <img src="@image.Image2" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            }
+
+                                            @if (image.Image3 != null)
+                                            {
+                                                <div class="slider-card">
+                                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                                        <a data-fancybox="gallery" href="@image.Image3">
+                                                            <img src="@image.Image3" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            }
+
+                                            @if (image.Image4 != null)
+                                            {
+                                                <div class="slider-card">
+                                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                                        <a data-fancybox="gallery" href="@image.Image4">
+                                                            <img src="@image.Image4" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            }
+
+                                            @if (image.Image5 != null)
+                                            {
+                                                <div class="slider-card">
+                                                    <div class="d-flex justify-content-center align-items-center mb-4">
+                                                        <a data-fancybox="gallery" href="@image.Image5">
+                                                            <img src="@image.Image5" alt="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            }
+                                        }
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+
+        <div class="row bg-light mb-3">
+            <div class="col-md-8 col-sm-12 mt-3">
+                <div class="bg-white p-3">
+                    <h3 class="text-black mb-4">Mô tả</h3>
+                    <p>
+                        @Html.Raw(ViewBag.homestay_detail.Description)
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12 mt-3">
+                <div class="bg-white p-3">
+                    <h3 class="text-black mb-4">Tiện ích</h3>
+                    <ul class="list-unstyled footer-link">
+                        @if (@ViewBag.homestay_detail.RoomSize != null)
+                        {
+                        <li class="d-block mb-3">
+                            <span class="d-block text-black"><i class="fa-solid fa-vector-square"></i> @Html.Raw(ViewBag.homestay_detail.RoomSize)</span>
+                        </li>
+                        }
+                        
+                        @if (@ViewBag.homestay_detail.Wifi == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-wifi"></i> Wifi tốc độ cao</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.Cafe == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-mug-hot"></i> Cà phê</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.AirConditional == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-temperature-three-quarters"></i> Điều hoà nhiệt độ</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.Parking == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-square-parking"></i> Chỗ đậu xe</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.Pool == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-water-ladder"></i> Bể bơi</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.Kitchen == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-utensils"></i> Gian bếp</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.Laundry == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-shirt"></i> Giặt là</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.Balcony == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-binoculars"></i> Ban công</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.Gym == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-dumbbell"></i> Dịch vụ gym</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.BreakfirstIncluded == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-utensils"></i> Bữa sáng miễn phí</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.PetFriendly == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-paw"></i> Cho phép thú nuôi</span>
+                            </li>
+                        }
+
+                        @if (@ViewBag.homestay_detail.SmokingAllowed == true)
+                        {
+                            <li class="d-block mb-3">
+                                <span class="d-block text-black"><i class="fa-solid fa-smoking"></i> Cho phép hút thuốc</span>
+                            </li>
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <style>
+                                .stars {
+                                    display: inline-flex;
+                                    flex-direction: row-reverse;
+                                    align-items: center;
+                                }
+
+                                    .stars input[type="radio"] {
+                                        display: none;
+                                    }
+
+                                    .stars label {
+                                        font-size: 35px;
+                                        color: #ccc;
+                                        cursor: pointer;
+                                        transition: color 0.2s;
+                                    }
+
+                                    .stars input[type="radio"]:checked ~ label,
+                                    .stars input[type="radio"]:checked ~ label ~ label {
+                                        color: #f5b301;
+                                    }
+
+                                    .stars label:hover,
+                                    .stars label:hover ~ label {
+                                        color: #f5b301;
+                                    }
+
+                            </style>
+
+    <div class="tab-pane fade" id="pills-rental" role="tabpanel" aria-labelledby="pills-rental-tab">
+        <div class="bg-light pt-2" id="contact-section">
+            <div class="container mt-3">
+                <div class="row justify-content-center text-center">
+                    <div class="text-center mb-3">
+                        <h2>VUI LÒNG ĐIỀN ĐẦY ĐỦ THÔNG TIN ĐỂ THUÊ HOMESTAY</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mb-5">
+                        <form asp-controller="Homestay" asp-action="GetRentalInfo" method="get">
+                            @if (ViewBag.account != null)
+                            {
+                                <span style="font-style: italic">Lưu ý: Những trường thông tin được đánh dấu (*) là bắt buộc</span>
+                                <input type="hidden" name="homestay_id" value="@ViewBag.homestay_detail?.HomestayId"/>
+                                <div class="form-group row mt-2">
+                                    <div class="col-md-6 mb-4 mb-lg-0">
+                                        <input type="text" class="form-control" placeholder="Họ (*)" name="fname" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.FirstName : string.Empty)" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <input type="text" class="form-control" placeholder="Tên (*)" name="lname" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.LastName : string.Empty)" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-6 mb-4 mb-lg-0">
+                                        <input type="email" class="form-control" placeholder="Email (*)" name="email" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Email : string.Empty)" required>
+                                    </div>
+
+                                    <div class="col-md-6">
+                                        <input type="tel" class="form-control" placeholder="SĐT (*)" name="phone" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Phone : string.Empty)" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-6 mb-4 mb-lg-0">
+                                        Ngày nhận phòng: (*) <input type="date" class="form-control" name="start_date" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.StartDate?.ToString("yyyy-MM-dd") : string.Empty)" required>
+                                    </div>
+
+                                    <div class="col-md-6 mb-4 mb-lg-0">
+                                        Ngày trả phòng: (*) <input type="date" class="form-control" name="end_date" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.EndDate?.ToString("yyyy-MM-dd") : string.Empty)" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control" placeholder="Địa chỉ" name="destination" value="@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Destination : string.Empty)">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-12">
+                                        <textarea name="note" class="form-control" placeholder="Ghi chú" cols="30" rows="3">@(ViewBag.contract_draft != null ? ViewBag.contract_draft.Note : string.Empty)</textarea>
+                                    </div>
+                                </div>
+                                <div style="color:red">@ViewBag.message</div>
+                            }
+                            <div class="form-group row">
+                                @if (ViewBag.homestay_detail.Status == true)
+                                {
+                                    @if (ViewBag.account == null)
+                                    {
+                                        <div class="col-md-12 mr-auto">
+                                            <a href="@Url.Action("Login", "Login", new { homestay_id = ViewBag.homestay_detail.HomestayId })" class="btn btn-block btn-primary text-white py-3 px-5">
+                                                VUI LÒNG ĐĂNG NHẬP ĐỂ TIẾP TỤC
+                                            </a>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="col-md-12 mr-auto">
+                                            <input type="submit" class="btn btn-block btn-primary text-white py-3 px-5" value="TIẾP TỤC">
+                                        </div>
+                                    }
+                                }
+                                else
+                                {
+                                    <div class="col-md-6 mr-auto">
+                                        <input type="submit" disabled class="btn btn-block btn-primary text-white py-3 px-5" value="Có thể đặt từ ngày @ViewBag.end_date">
+                                    </div>
+                                }
+                            </div>
+                            <div style="color:#00000091; font-style:italic">*Lưu ý:<br/> - Chỉ được đặt và giữ phòng xa nhất là 2 ngày tính từ thời điểm đặt. <br/> - Nếu không trả phòng khi đến hạn thì hệ thống sẽ tự trừ tiền với giá gấp đôi giá thuê 1 ngày. <br/></div>
+                        </form>
+
+                    </div>
+                    <div class="col-lg-4 ml-auto">
+                        <div class="bg-white p-3 p-md-5">
+                            <h3 class="text-black mb-4">Thông tin phòng</h3>
+                            <ul class="list-unstyled footer-link">
+                                <li class="d-block mb-3">
+                                    <span class="d-block text-black">Địa chỉ:</span><span style="font-weight: bold; color: orangered">@ViewBag.homestay_detail.City</span>
+                                </li>
+                                <li class="d-block mb-3">
+                                    <span class="d-block text-black">Số người tối đa:</span><span style="font-weight: bold; color: orangered">@ViewBag.homestay_detail.MaxGuests</span>
+                                </li>
+                                <li class="d-block mb-3">
+                                    <span class="d-block text-black">Giá thuê:</span><span style="font-weight: bold; color: orangered">@CurrencyHelper.GetFormatedCurrency(@ViewBag.homestay_detail.PricePerNight.ToString()) VNĐ/ngày</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+    <style>
+        .fab {
+            position: fixed; /* Đảm bảo nút luôn ở cùng một vị trí trên màn hình */
+            bottom: 40px; /* Cách cạnh dưới của màn hình 20px */
+            right: 40px; /* Cách cạnh phải của màn hình 20px */
+        }
+
+        .fab-button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            color: white;
+            font-size: 24px;
+            line-height: 60px;
+            text-align: center;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            position: relative;
+            animation: ring 1.5s infinite;
+        }
+
+            .fab-button:hover {
+                background-color: #e57373; /* Màu sáng hơn khi di chuột */
+            }
+
+        @@keyframes ring {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            10% {
+                transform: rotate(15deg);
+            }
+
+            20% {
+                transform: rotate(-10deg);
+            }
+
+            30% {
+                transform: rotate(5deg);
+            }
+
+            40% {
+                transform: rotate(-5deg);
+            }
+
+            50% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+    </style>
+
+    <div class="fab">
+        <div class="row">
+            <a href="tel:0968047703" target="_blank" class="fab-button">
+                <img style="max-height: 100%" src="https://cdn-icons-png.flaticon.com/512/6815/6815116.png" />
+            </a>
+        </div>
+        <div class="row mt-3">
+            <a href="https://zalo.me/0968047703" target="_blank" class="fab-button">
+                <img style="max-height: 100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Icon_of_Zalo.svg/768px-Icon_of_Zalo.svg.png" />
+            </a>
+        </div>
+        <div class="row mt-3">
+            <a href="https://m.me/456249630899482" target="_blank" class="fab-button">
+                <img style="max-height: 100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/768px-Facebook_Messenger_logo_2020.svg.png" />
+            </a>
+        </div>
+    </div>
+
+<footer class="site-footer" style="background-color: #4fadc9">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-12 mt-4">
+                <h2 class="footer-heading mb-4">VỀ CHÚNG TÔI</h2>
+                <p class="text-justify">OceanBooking là nền tảng trung gian giúp cho việc đặt homestay tại Vinhome Ocean Park Gia Lâm của bạn trở nên dễ dàng, thuận tiện hơn.</p>
+            </div>
+            <div class="col-lg-2 col-sm-12 mt-4"></div>
+            <div class="col-lg-7 ml-auto col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12 mt-4">
+                        <h2 class="footer-heading mb-4">LIÊN KẾT XÃ HỘI</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a style="color: whitesmoke" href="https://www.facebook.com/profile.php?id=61565969259252" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                            </li>
+                            <li>
+                                <a style="color: whitesmoke" href="mailto:oceanbooking01@gmail.com"><i class="fa-regular fa-envelope"></i> oceanbooking01@gmail.com</a>
+                            </li>
+                            <li>
+                                <a style="color: whitesmoke" href="tel:0968047703"><i class="fa-solid fa-phone"></i> 0968047703</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-sm-12 mt-4">
+                        <h2 class="footer-heading mb-4">THOẢ THUẬN NGƯỜI DÙNG</h2>
+                        <ul class="list-unstyled">
+                            <li><a style="color: whitesmoke" href="@Url.Action("TermsOfUse", "PageInformation")">Điều khoản dịch vụ</a></li>
+                            <li><a style="color: whitesmoke" href="@Url.Action("PrivacyPolicy", "PageInformation")">Quyền riêng tư và bảo mật</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="@Url.Content("~/lib/jquery/dist/jquery.min.js")"></script>
+<script src="@Url.Content("~/lib/bootstrap/dist/js/bootstrap.bundle.min.js")"></script>
+<script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="@Url.Content("~/lib/OwlCarousel/dist/owl.carousel.min.js")"></script>
+<script src="https://cdn.jsdelivr.net/npm/@@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="@Url.Content("~/js/site.js")"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/henrygphp/Documents/Projects/OCBK/EXE202/EXE202.csproj": {}
+  },
+  "projects": {
+    "/home/henrygphp/Documents/Projects/OCBK/EXE202/EXE202.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/henrygphp/Documents/Projects/OCBK/EXE202/EXE202.csproj",
+        "projectName": "EXE202",
+        "projectPath": "/home/henrygphp/Documents/Projects/OCBK/EXE202/EXE202.csproj",
+        "packagesPath": "/home/henrygphp/.nuget/packages/",
+        "outputPath": "/home/henrygphp/Documents/Projects/OCBK/EXE202/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/henrygphp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hangfire": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.8.14, )"
+            },
+            "LinqKit": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.0-preview1.24240.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

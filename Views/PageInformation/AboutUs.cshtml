@@ -1,0 +1,327 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Về chúng tôi - OceanBooking</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/images/SiteImages/OCBK_LOGO.png" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/lib/owlcarousel/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/main_style/fonts/flaticon/font/flaticon.css">
+    <!-- Customized Bootstrap Stylesheet -->
+
+    <link rel="stylesheet" href="~/main_style/css/style.css">
+    <link href="~/css/custom/style.css" rel="stylesheet" />
+
+    <style>
+        .text-primary {
+            color: #4fadc9 !important;
+        }
+
+        .btn-primary {
+            color: #fff;
+            background-color: #4fadc9;
+            border-color: #4fadc9;
+        }
+
+            .btn-primary:hover {
+                color: #fff;
+                background-color: #2b88a4;
+                border-color: #2b88a4;
+            }
+
+            .btn-primary:focus, .btn-primary.focus {
+                color: #fff;
+                background-color: #20758e;
+                border-color: #4fadc9;
+                box-shadow: 0 0 0 0.2rem #4fadc9;
+            }
+
+        .btn-outline-primary {
+            color: #4fadc9;
+            border-color: #4fadc9;
+        }
+
+            .btn-outline-primary:hover {
+                color: #fff;
+                background-color: #2b88a4;
+                border-color: #2b88a4;
+            }
+
+            .btn-outline-primary:focus, .btn-outline-primary.focus {
+                box-shadow: 0 0 0 0.2rem #4fadc9;
+            }
+
+            .btn-outline-primary.disabled, .btn-outline-primary:disabled {
+                color: #4fadc9;
+                background-color: transparent;
+            }
+
+            .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
+            .show > .btn-outline-primary.dropdown-toggle {
+                color: #fff;
+                background-color: #4fadc9;
+                border-color: #4fadc9;
+            }
+
+                .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+                .show > .btn-outline-primary.dropdown-toggle:focus {
+                    box-shadow: 0 0 0 0.2rem #4fadc9;
+                }
+
+        .bg-primary {
+            background-color: #4fadc9 !important;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            background-color: transparent;
+        }
+
+            a:hover {
+                color: #ffffff;
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body style="font-family: Tahoma, sans-serif !important">
+    <header class="site-navbar site-navbar-target" role="banner" style="background-color: rgba(79, 173, 201, 0.5);">
+        <div class="container">
+            <div class="row align-items-center position-relative">
+                <div class="col-md-6 col-sm-12">
+                    <div class="site-logo">
+                        <a href="@Url.Action("LoadHomestay", "Homestay")"><img style="width: 350px; font-weight: bold" src="/images/SiteImages/OCBK_LOGO_TEXT_WHITE.png" /></a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <nav class="site-navigation ml-auto d-lg-block">
+                        <ul class="site-menu main-menu js-clone-nav ml-auto">
+                            @if (ViewBag.name == null)
+                            {
+                            <li><a href="@Url.Action("Login", "Login")" class="nav-link">ĐĂNG NHẬP</a></li>
+                            <li><a href="@Url.Action("SignUp", "SignUp")" class="nav-link">ĐĂNG KÝ</a></li>
+                            }
+                            else
+                            {
+                            <li><a href="@Url.Action("Profile", "Profile")" class="nav-link">Xin chào @ViewBag.name</a></li>
+                            <li><a href="@Url.Action("Logout", "Login")" class="nav-link">ĐĂNG XUẤT</a></li>
+                            }
+                            <li><a href="@Url.Action("AboutUs", "PageInformation")" class="nav-link">VỀ CHÚNG TÔI</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 mt-5">
+        <div class="container pt-5">
+            <div class="row" style="margin-top: 150px">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded" src="~/images/SiteImages/VIN_ABOUTUS.jpg" style="object-fit: contain;" />
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Về chúng tôi</h6>
+                        <h1 class="mb-3">Nâng tầm chuyến đi của bạn cùng OceanBooking</h1>
+                        <p><strong>OceanBooking</strong> là dịch vụ trung gian chuyên nghiệp, giúp bạn dễ dàng đặt homestay tại <strong>Vinhomes Ocean Park</strong>. Chúng tôi cung cấp nhiều lựa chọn lưu trú chất lượng, phù hợp với mọi nhu cầu, từ nghỉ dưỡng đến công tác. Với OceanBooking, bạn sẽ được trải nghiệm không gian hiện đại, tiện nghi, cùng sự hỗ trợ 24/7 từ đội ngũ chuyên nghiệp. Hãy để chúng tôi đồng hành cùng bạn trong mỗi chuyến đi!</p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img class="img-fluid rounded" src="~/images/SiteImages/VIN_ABOUTUS_1.jpg" />
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid rounded" src="~/images/SiteImages/VIN_ABOUTUS_2.jpg" />
+                            </div>
+                        </div>
+                        <a href="@Url.Action("LoadHomestay", "Homestay")" class="btn btn-outline-primary mt-1 w-100">ĐẶT PHÒNG NGAY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    <!-- Feature Start -->
+    <div class="container-fluid pb-5">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-money-check-alt text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-uppercase">Giá cả hợp lý</h5>
+                            <p class="m-0">Mang đến nhiều lựa chọn với mức giá phù hợp cho mọi nhu cầu.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-award text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-uppercase">Dịch vụ chu đáo</h5>
+                            <p class="m-0">Đội ngũ hỗ trợ tận tâm, sẵn sàng phục vụ 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex mb-4 mb-lg-0">
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3" style="height: 100px; width: 100px;">
+                            <i class="fa fa-2x fa-globe text-white"></i>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <h5 class="text-uppercase">Phòng ốc đa dạng</h5>
+                            <p class="m-0">Nhiều loại phòng với thiết kế hiện đại, đầy đủ tiện nghi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <style>
+        .fab {
+            position: fixed; /* Đảm bảo nút luôn ở cùng một vị trí trên màn hình */
+            bottom: 40px; /* Cách cạnh dưới của màn hình 20px */
+            right: 40px; /* Cách cạnh phải của màn hình 20px */
+        }
+
+        .fab-button {
+            display: inline-block;
+            width: 60px;
+            height: 60px;
+            color: white;
+            font-size: 24px;
+            line-height: 60px;
+            text-align: center;
+            border-radius: 50%;
+            text-decoration: none;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease;
+            display: inline-block;
+            position: relative;
+            animation: ring 1.5s infinite;
+        }
+
+            .fab-button:hover {
+                background-color: #e57373; /* Màu sáng hơn khi di chuột */
+            }
+
+        @@keyframes ring {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            10% {
+                transform: rotate(15deg);
+            }
+
+            20% {
+                transform: rotate(-10deg);
+            }
+
+            30% {
+                transform: rotate(5deg);
+            }
+
+            40% {
+                transform: rotate(-5deg);
+            }
+
+            50% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+            }
+        }
+
+    </style>
+
+    <div class="fab">
+        <div class="row">
+            <a href="tel:0968047703" target="_blank" class="fab-button">
+                <img style="max-height: 100%" src="https://cdn-icons-png.flaticon.com/512/6815/6815116.png" />
+            </a>
+        </div>
+        <div class="row mt-3">
+            <a href="https://zalo.me/0968047703" target="_blank" class="fab-button">
+                <img style="max-height: 100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Icon_of_Zalo.svg/768px-Icon_of_Zalo.svg.png" />
+            </a>
+        </div>
+        <div class="row mt-3">
+            <a href="https://m.me/456249630899482" target="_blank" class="fab-button">
+                <img style="max-height: 100%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/768px-Facebook_Messenger_logo_2020.svg.png" />
+            </a>
+        </div>
+    </div>
+
+    <footer class="site-footer" style="background-color: #4fadc9">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 mt-4">
+                    <h2 class="footer-heading mb-4">VỀ CHÚNG TÔI</h2>
+                    <p class="text-justify">OceanBooking là nền tảng trung gian giúp cho việc đặt homestay tại Vinhome Ocean Park Gia Lâm của bạn trở nên dễ dàng, thuận tiện hơn.</p>
+                </div>
+                <div class="col-lg-2 col-sm-12 mt-4"></div>
+                <div class="col-lg-7 ml-auto col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 mt-4">
+                            <h2 class="footer-heading mb-4">LIÊN KẾT XÃ HỘI</h2>
+                            <ul class="list-unstyled">
+                                <li><a style="color: whitesmoke" href="https://www.facebook.com/profile.php?id=61565969259252" target="_blank"><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                                <li><a style="color: whitesmoke" href="mailto:oceanbooking01@gmail.com"><i class="fa-regular fa-envelope"></i> oceanbooking01@gmail.com</a></li>
+                                <li><a style="color: whitesmoke" href="tel:0968047703"><i class="fa-solid fa-phone"></i> 0968047703</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 mt-4">
+                            <h2 class="footer-heading mb-4">THOẢ THUẬN NGƯỜI DÙNG</h2>
+                            <ul class="list-unstyled">
+                                <li><a style="color: whitesmoke" href="@Url.Action("TermsOfUse", "PageInformation")">Điều khoản dịch vụ</a></li>
+                                <li><a style="color: whitesmoke" href="@Url.Action("PrivacyPolicy", "PageInformation")">Quyền riêng tư và bảo mật</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/easing/easing.min.js"></script>
+    <script src="~/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/lib/tempusdominus/js/moment.min.js"></script>
+    <script src="~/lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="~/lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/js/site.js"></script>
+</body>
+
+</html>
