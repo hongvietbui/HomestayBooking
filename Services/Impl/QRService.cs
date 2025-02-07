@@ -59,7 +59,7 @@ public class QRService : IQRService
 
     public async Task<string> GetQRDataURLWithBookingId(int bookingContractId, decimal? amount)
     {
-        var bookingContract = await _context.BookingContracts.FirstOrDefaultAsync(bc => bc.BookingId == bookingContractId);
+        //var bookingContract = await _context.BookingContracts.FirstOrDefaultAsync(bc => bc.BookingId == bookingContractId);
         var contentReq = new VietQRReq
         {
             Format = _config.GetValue<string>("VietQR:Format"),
@@ -67,7 +67,7 @@ public class QRService : IQRService
             AccountName = _config.GetValue<string>("VietQR:AccountName"),
             AccountNo = _config.GetValue<string>("VietQR:AccountNo"),
             AcqId = _config.GetValue<int>("VietQR:AcqId"),
-            AddInfo = bookingContract.CustomerId+"ChuyenKhoan"+bookingContractId,
+            AddInfo = "Chuyen khoan cho bookingId "+bookingContractId,
             Amount = amount
         };
 

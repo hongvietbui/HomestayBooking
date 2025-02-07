@@ -166,6 +166,7 @@ namespace EXE202.DAO
             }
             return homestays;
         }
+        
         public void UpdateHomestayStatus(int homestay_id)
         {
             try
@@ -180,23 +181,6 @@ namespace EXE202.DAO
             catch (Exception ex)
             {
                 Console.WriteLine($"An error occurred while fetching homestay: {ex.Message}");
-            }
-        }
-
-        public void UpdateHomestayStatus1(int homestay_id)
-        {
-            try
-            {
-                var homestay = _context.Homestays.SingleOrDefault(h => h.HomestayId == homestay_id);
-                if (homestay != null)
-                {
-                    homestay.Status = true;
-                    _context.SaveChanges();
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred while fetching homestays: {ex.Message}");
             }
         }
 
@@ -311,6 +295,19 @@ namespace EXE202.DAO
                 Console.WriteLine($"An error occurred while fetching homestay image: {ex.Message}");
             }
             return images;
-        } 
+        }
+        
+        public async Task<bool> UpdateHomestayStatusAsync(int homestayId)
+        {
+            var homestay = await _context.Homestays.FirstOrDefaultAsync(h => h.HomestayId == homestayId);
+            if(homestay != null)
+            {
+                homestay.Status = !homestay.Status;
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            
+            return false;
+        }
     }
 }

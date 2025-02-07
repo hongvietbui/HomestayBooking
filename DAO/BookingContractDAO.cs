@@ -12,6 +12,11 @@ public class BookingContractDAO
         _context = context;
     }
 
+    public async Task<BookingContract?> GetBookingContractById(int id)
+    {
+        return await _context.BookingContracts.FirstOrDefaultAsync(b => b.BookingId == id);
+    }
+
     public async Task<BookingContract> CreateBookingContract(int customerId, int homestayId, string firstName, string lastName,
         string email, string phone, DateTime startDate, DateTime endDate, string destination, decimal totalAmount, string note, string status, string paymentMethod)
     {
@@ -36,15 +41,16 @@ public class BookingContractDAO
         return contract;
     }
 
-    public async Task<BookingContract> ConfirmBookingContract(int bookingId)
+    public async Task<bool> ConfirmBookingContract(int bookingId, decimal amount)
     {
         var bookingContract = await _context.BookingContracts.FirstOrDefaultAsync(bc => bc.BookingId == bookingId);
-        if (bookingContract != null)
+        if (bookingContract != null && bookingContract.TotalAmount == amount)
         {
-            bookingContract.Status = "CHỜ XÁC NHẬN";
+            bookingContract.Status = "ĐÃ THANH TOÁN";
             _context.Update(bookingContract);
             await _context.SaveChangesAsync();
+            return true;
         }
-        return bookingContract;
+        return false;
     }
 }

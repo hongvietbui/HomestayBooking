@@ -302,7 +302,7 @@ namespace Project_RentACar.Controllers
             ViewBag.host = homestay_dao.GetHostByID(rental_contract.RoomId);
             SendPurchaseSuccessfulMailToCustomer(rental_contract, homestay);
 
-            return View($"ViewRentalDetail?rental_id={rental_contract.BookingId}");
+            return RedirectToAction("ViewRentalDetail", "Profile", new { rental_id = rental_contract.BookingId });
         }
     }
 }

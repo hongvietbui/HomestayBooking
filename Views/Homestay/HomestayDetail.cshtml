@@ -143,60 +143,28 @@
                         <div class="slider">
                             <div class="owl-carousel">
                                 @{
-                                    if (@ViewBag.homestayImages != null)
+                                    if (ViewBag.homestayImages != null)
                                     {
+                                        var validImages = new List<string>();
+
                                         foreach (var image in ViewBag.homestayImages)
                                         {
-                                            @if (image.Image1 != null)
-                                            {
-                                                <div class="slider-card">
-                                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                                        <a data-fancybox="gallery" href="@image.Image1">
-                                                            <img src="@image.Image1" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            }
+                                            if (image.Image1 != null) validImages.Add(image.Image1);
+                                            if (image.Image2 != null) validImages.Add(image.Image2);
+                                            if (image.Image3 != null) validImages.Add(image.Image3);
+                                            if (image.Image4 != null) validImages.Add(image.Image4);
+                                            if (image.Image5 != null) validImages.Add(image.Image5);
+                                        }
 
-                                            @if (image.Image2 != null)
+                                        // Chỉ hiển thị nếu có ảnh hợp lệ
+                                        if (validImages.Count > 0)
+                                        {
+                                            foreach (var img in validImages)
                                             {
                                                 <div class="slider-card">
                                                     <div class="d-flex justify-content-center align-items-center mb-4">
-                                                        <a data-fancybox="gallery" href="@image.Image2">
-                                                            <img src="@image.Image2" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            }
-
-                                            @if (image.Image3 != null)
-                                            {
-                                                <div class="slider-card">
-                                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                                        <a data-fancybox="gallery" href="@image.Image3">
-                                                            <img src="@image.Image3" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            }
-
-                                            @if (image.Image4 != null)
-                                            {
-                                                <div class="slider-card">
-                                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                                        <a data-fancybox="gallery" href="@image.Image4">
-                                                            <img src="@image.Image4" alt="">
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            }
-
-                                            @if (image.Image5 != null)
-                                            {
-                                                <div class="slider-card">
-                                                    <div class="d-flex justify-content-center align-items-center mb-4">
-                                                        <a data-fancybox="gallery" href="@image.Image5">
-                                                            <img src="@image.Image5" alt="">
+                                                        <a data-fancybox="gallery" href="@img">
+                                                            <img src="@img" alt="">
                                                         </a>
                                                     </div>
                                                 </div>
@@ -205,6 +173,7 @@
                                     }
                                 }
                             </div>
+
                         </div>
                     </div>
                 </section>

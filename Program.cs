@@ -3,7 +3,6 @@ using EXE202.Hubs;
 using EXE202.Models;
 using EXE202.Services;
 using EXE202.Services.Impl;
-using Hangfire;
 using Microsoft.EntityFrameworkCore;
 
 namespace EXE202
@@ -45,15 +44,14 @@ namespace EXE202
             builder.Services.AddScoped<HomestayDAO>();
             builder.Services.AddScoped<BookingContractDAO>();
             builder.Services.AddScoped<TransactionDAO>();
-
-            builder.Services.AddScoped<IScheduleService, ScheduleService>();
+            
             builder.Services.AddScoped<IQRService, QRService>();
             builder.Services.AddScoped<ITransactionService, TransactionService>();
             
             
             //Add Hangfire
-            builder.Services.AddHangfire(config => config.UseSqlServerStorage(builder.Configuration.GetConnectionString("DefaultConnection")));
-            builder.Services.AddHangfireServer();
+            // builder.Services.AddHangfire(config => config.UseSqlServerStorage(builder.Configuration.GetConnectionString("DefaultConnection")));
+            // builder.Services.AddHangfireServer();
 
             builder.Services.AddLogging();
             var app = builder.Build();
@@ -65,7 +63,7 @@ namespace EXE202
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
     
             app.UseRouting();
@@ -76,18 +74,18 @@ namespace EXE202
             app.UseAuthorization();
             
             //
-            app.UseHangfireDashboard();
+            // app.UseHangfireDashboard();
             // Định tuyến mặc định
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Homestay}/{action=LoadHomestay}/{id?}");
             
-            using(var scope = app.Services.CreateScope())
-            {
-                var scheduleService = scope.ServiceProvider.GetRequiredService<IScheduleService>();
-                
-                RecurringJob.AddOrUpdate("1",() => scheduleService.ScanTransactionAsync(), "*/1 * * * *");
-            }
+            // using(var scope = app.Services.CreateScope())
+            // {
+            //     var scheduleService = scope.ServiceProvider.GetRequiredService<IScheduleService>();
+            //     
+            //     RecurringJob.AddOrUpdate("1",() => scheduleService.ScanTransactionAsync(), "*/1 * * * *");
+            // }
             
             app.UseEndpoints(endpoints =>
             {
