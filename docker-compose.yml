@@ -5,7 +5,7 @@ services:
     image: mcr.microsoft.com/mssql/server:2022-latest
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=OceanBooking_123
+      - SA_PASSWORD=TamDaoStay_123
     ports:
       - "1433:1433"
     networks:
@@ -17,12 +17,12 @@ services:
       - -c
       - |
         # Chờ SQL Server sẵn sàng
-        until /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P OceanBooking_123 -Q 'SELECT 1' > /dev/null 2>&1; do
+        until /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P TamDaoStay_123 -Q 'SELECT 1' > /dev/null 2>&1; do
           echo 'Waiting for SQL Server to be available...'
           sleep 5
         done
         # Thực thi các script SQL
-        /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P OceanBooking_123 -d master -i /opt/mssql_scripts/EXE202.sql
+        /opt/mssql-tools/bin/sqlcmd -S sqlserver -U sa -P TamDaoStay_123 -d master -i /opt/mssql_scripts/EXE202.sql
     stdin_open: true
     volumes:
       - ./sqlscripts:/opt/mssql_scripts
@@ -37,7 +37,7 @@ services:
       - "8081:80"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=OceanBooking_DB;User Id=sa;Password=OceanBooking_123;TrustServerCertificate=True
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=TamDaoStay_DB;User Id=sa;Password=TamDaoStay_123;TrustServerCertificate=True
     depends_on:
       - sqlserver
     networks:

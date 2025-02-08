@@ -28,7 +28,7 @@ namespace EXE202.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=OceanBooking_DB;Integrated Security = true;TrustServerCertificate=True");
+                optionsBuilder.UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=TamDaoStay_DB;Integrated Security = true;TrustServerCertificate=True");
             }
         }
 
