@@ -5,7 +5,7 @@ namespace EXE202.Utils
 {
     public class EmailSender
     {
-        string SenderMail = "sys.TamDaoStay@gmail.com";
+        string SenderMail = "sys.oceanbooking@gmail.com";
         string SenderPassword = "igpe pwki kvhh kevc";
         
         public Task SendEmailAsync(string email, string subject, string message)
@@ -15,7 +15,7 @@ namespace EXE202.Utils
                 EnableSsl = true,
                 Credentials = new NetworkCredential(SenderMail, SenderPassword)
             };
-            var senderAddress = new MailAddress(SenderMail, "Ocean Booking");
+            var senderAddress = new MailAddress(SenderMail, "TamDaoStay");
             var mailMessage = new MailMessage
             {
                 From = senderAddress,
