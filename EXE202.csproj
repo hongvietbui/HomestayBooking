@@ -654,6 +654,7 @@
     <_ContentIncludedByDefault Remove="wwwroot\templates\BOOKING_CONFIRMED_TEMPLATE.html" />
     <_ContentIncludedByDefault Remove="wwwroot\templates\BOOKING_NOTIFICATION_TEMPLATE.html" />
     <_ContentIncludedByDefault Remove="wwwroot\templates\OTP_MAIL_TEMPLATE.html" />
+    <_ContentIncludedByDefault Remove="Views\Test\CassoTest.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
