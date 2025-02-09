@@ -5,8 +5,8 @@ namespace EXE202.Utils
 {
     public class EmailSender
     {
-        string SenderMail = "sys.oceanbooking@gmail.com";
-        string SenderPassword = "igpe pwki kvhh kevc";
+        string SenderMail = "sys.TamDaoStay@gmail.com";
+        string SenderPassword = "bcsa tjvh fwdo qsxr";
         
         public Task SendEmailAsync(string email, string subject, string message)
         {
