@@ -35,7 +35,8 @@ public class WebhookController(BookingContractDAO bookingContractDao, ITransacti
     
     static string ExtractBookingId(string input)
     {
-        Match match = Regex.Match(input, @"bookingId\s+(\d+)");
+        input = input.ToLower();
+        Match match = Regex.Match(input, @"bookingid\s+(\d+)");
         return match.Success ? match.Groups[1].Value : string.Empty;
     }
 }

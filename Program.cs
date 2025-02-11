@@ -63,7 +63,7 @@ namespace EXE202
                 app.UseHsts();
             }
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseStaticFiles();
     
             app.UseRouting();

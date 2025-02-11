@@ -1,0 +1,28 @@
+# Xem file hoàn chỉnh tại ./config/config.example.yml
+bots:
+  # Hướng dẫn cài bot ở phía dưới
+proxies:
+  # Hướng dẫn cài proxies ở phía dưới
+webhooks:
+  # Hướng dẫn cài webhook ở phía dưới
+  test_webhook:
+    url: "https://3edc-42-114-121-189.ngrok-free.app/api/webhook"
+    token: "123456789:ABCDEF"
+    conditions:
+      content_regex: ".*?"
+      account_regex: ".*?"
+gateways:
+  mb_bank_1:
+    type: "MBBANK"
+    password: "HongvaBanghp123" 
+    account: "0387718770"
+    login_id: "HEGPHP"
+    repeat_interval_in_sec: 20
+  # vcb_bank_1:
+  #   type: 'VCBBANK'
+  #   password: 'bank password'
+  #   account: 'stk nhan tien'
+  #   login_id: 'ten dang nhap'
+  #   device_id: 'huong dan lay phia duoi'
+  #   repeat_interval_in_sec: 20
+  #   proxy: 'proxy_1'
